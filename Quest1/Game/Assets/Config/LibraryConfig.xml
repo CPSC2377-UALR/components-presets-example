@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Library>
+  <AssetLibrary create="true">
+    <Asset name="Player" spritepath=".\Assets\Images\Samurai\Samurai_IdleBlink_001.png"></Asset>
+    <Asset name="NinjaEnemy" spritepath=".\Assets\Images\NinjaEnemy\Idle__000.png"></Asset>
+    <Asset name="NinjaGirlEnemy" spritepath=".\Assets\Images\NinjaGirlEnemy\Idle__000.png"></Asset>
+    <Asset name="Kunai" spritepath=".\Assets\Images\Weapons\Kunai.png"></Asset>
+  </AssetLibrary>
+</Library>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+  <Screen width ="1024" height ="768"></Screen>
+  <FPS>100</FPS>
+  <Devices>
+    <Input create="true">
+      <InputEvent inputEvent ="" gameEvent=""></InputEvent>
+    </Input>
+  </Devices>
+  <Object name="Player">
+      <!-- TODO 10. Since the sprite is optional, we have a boolean value to indicate whether the component is available or not for an object-->
+	  <Component name="Sprite" asset ="Player" sprite="true"></Component>
+      <Component name="Body" x="10.0f" y="-10.0f" angle="0.0f"></Component>
+      <Component name="UserInput" create="true"></Component>
+  </Object>
+  <Object name="NinjaEnemy">
+      <Component name="Sprite" asset ="NinjaEnemy" sprite="true"></Component>
+      <Component name="Body" x="300.0f" y="40.0f" angle="0.0f"></Component>
+      <Component name="SlidingBehavior" create="true"></Component>
+  </Object>
+  <Object name="NinjaGirlEnemy">
+      <Component name="Sprite" asset ="NinjaGirlEnemy" sprite="true"></Component>
+      <Component name="Body" x="600.0f" y="2.0f" angle="0.0f"></Component>
+      <Component name="RotateBehavior" create="true"></Component>
+  </Object>
+
+  <Object name="Kunai">
+      <Component name="Sprite" asset ="Kunai" sprite="true"></Component>
+      <Component name="Body" x="600.0f" y="2.0f" angle="0.0f"></Component>
+  </Object>
+</Game>
